@@ -8,6 +8,7 @@ do
 	arr[i]=$a;
 done
 
+echo "New unsorted array:";
 echo ${arr[@]};
 
 for (( p=0; p<n; p++ ))
@@ -23,5 +24,5 @@ do
 	done
 done
 
-
+echo "Sorted array:"
 echo ${arr[@]};
